@@ -1,4 +1,4 @@
-/*=======Media query min-width 1200 px (Desktop)=======*/
+/*=======Media query min-width 1200 px (Desktop Layout)=======*/
 @media (min-width: 1200px) {
   .container {
     width: 100%;
@@ -6,7 +6,7 @@
   }
 }
 
-/*=======Media query max-width 1300 px (Smaller Desktop or Tablets)=======*/
+/*=======Media query max-width 1300 px (Smaller Desktop Layout or Tablet Layout)=======*/
 @media (max-width: 1300px) {
   .box_content_social_function {
     font-size: 0.7rem;
@@ -17,7 +17,7 @@
   }
 }
 
-/*=======Media query max-width 1200 px (Tablets)=======*/
+/*=======Media query max-width 1200 px (Tablet Layout)=======*/
 @media (max-width: 1200px) {
   .logo_page img {
     transform: scale(1.2);
@@ -45,7 +45,7 @@
   }
 }
 
-/*=======Media query max-width 991 px (For Mobile and Tablets)=======*/
+/*=======Media query max-width 991 px (For Mobile and Smallet Tablet Layout)=======*/
 @media (max-width: 991px) {
   /*    header*/
   .top_header,
