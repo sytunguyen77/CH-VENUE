@@ -1,0 +1,234 @@
+/*=======Media query min-width 1200 px (Desktop)=======*/
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1330px;
+  }
+}
+
+/*=======Media query max-width 1200 px (Tablets)=======*/
+@media (max-width: 1200px) {
+  .logo_page img {
+    transform: scale(1.2);
+    height: 75px;
+  }
+
+  .menu_page ul {
+    padding: 0 40px;
+  }
+
+  .list_content_social {
+    padding-right: 50px;
+  }
+
+  .date_box_upcoming > span {
+    font-size: 0.85rem;
+  }
+
+  .box_content_social_text p {
+    font-size: 0.78rem;
+  }
+
+  .box_content_social_function {
+    font-size: 0.7rem;
+  }
+}
+
+/*=======Media query max-width 991 px (For Mobile and Tablets)=======*/
+@media (max-width: 991px) {
+  /*    header*/
+  .top_header,
+  .menu_page {
+    display: none;
+  }
+
+  .logo_page {
+    padding: 16px 0;
+    padding-left: 15px;
+  }
+
+  .logo_page img {
+    transform: inherit;
+    height: 55px;
+  }
+  /*    end*/
+
+  /*    menu mobile*/
+  .wp-menu-mobile {
+    display: block;
+  }
+
+  .search_page {
+    margin: 0 15px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .search_page input {
+    width: 100%;
+  }
+  .search_page button {
+    font-size: 0.875rem;
+  }
+
+  .login_page {
+    margin: 0 15px;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .login_page a {
+    width: 100%;
+  }
+  /*    end*/
+
+  /*    sec upcoming event*/
+  .header_upcoming_event ul {
+    display: none;
+  }
+
+  .header_upcoming_event h3 {
+    font-size: 1.875rem;
+  }
+
+  .sec_upcoming_event {
+    padding: 10px 0 20px 0;
+  }
+
+  .box_upcoming {
+    display: flex;
+    position: relative;
+    padding: 0;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+
+  .img_box_upcoming {
+    position: inherit;
+    width: 128px;
+    padding: 7px 15px;
+  }
+
+  .img_box_upcoming img {
+    border-radius: 5px;
+    height: auto;
+  }
+
+  .content_box_upcoming {
+    padding: 0 30px 0 0;
+    text-align: left;
+  }
+
+  .content_box_upcoming a {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .content_box_upcoming p {
+    font-size: 1rem;
+  }
+
+  .date_box_upcoming {
+    position: inherit;
+    top: inherit;
+    margin-top: 8px;
+  }
+
+  .rank_date_box_upcoming {
+    width: 130px;
+  }
+
+  .buy_sticket {
+    display: block;
+    width: 100%;
+  }
+
+  .buy_sticket a {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+    background: #00b2ff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+  }
+
+  .buy_sticket a img {
+    margin-right: 10px;
+  }
+  /*    end*/
+
+  /*    sec news letter*/
+  .bg_sec_news_letter img {
+    height: 366px;
+    object-fit: cover;
+  }
+
+  .box_news_letter {
+    width: calc(100% - 30px);
+  }
+
+  .box_news_letter h3 {
+    font-size: 1.875rem;
+    width: 50%;
+  }
+
+  .box_news_letter p {
+    font-size: 1rem;
+  }
+
+  /*    end*/
+
+  /*    footer*/
+  .title_sec_get_footer h2 {
+    font-size: 1.875rem;
+  }
+
+  .title_sec_get_footer p {
+    font-size: 1rem;
+  }
+
+  .tab_social li a span {
+    display: none;
+  }
+
+  .list_content_social {
+    padding-right: 60px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+
+  .get_direction {
+    margin-top: 50px;
+  }
+
+  .title_box_get_direction {
+    text-align: center;
+    padding: 10px 30px;
+    height: auto;
+    line-height: 30px;
+  }
+
+  .box_get_direction {
+    height: auto;
+  }
+
+  .wp_get_social {
+    height: auto;
+  }
+
+  .tab-content-social {
+    padding: 30px 0 30px 15px;
+  }
+
+  .box_content_social_function {
+    font-size: 1rem;
+  }
+}
