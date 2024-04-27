@@ -6,7 +6,7 @@
   }
 }
 
-/*=======Media query max-width 1300 px (Desktop and Tablets)=======*/
+/*=======Media query max-width 1300 px (Smaller Desktop or Tablets)=======*/
 @media (max-width: 1300px) {
   .box_content_social_function {
     font-size: 0.7rem;
